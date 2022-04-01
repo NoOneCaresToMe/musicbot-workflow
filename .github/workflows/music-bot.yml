@@ -40,7 +40,7 @@ jobs:
 
            git config --global credential.helper store
 
-           echo "https://${GitHubName}:${{ secrets.GH_TOKEN1 }}@github.com" > ~/.git-credentials
+           echo "https://${GitHubName}:${{ secrets.GH_TOKEN }}@github.com" > ~/.git-credentials
 
        - name: cloning repo
 
